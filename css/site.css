@@ -1,7 +1,194 @@
-.text-red {
-	color: red;
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+
+ }
+
+.title {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	position: static;
+	text-align: center;
+	font-size: 300%;
+	font-family: Playfair Display, serif; 
+	letter-spacing: 1.5px; 
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000; 
+}
+
+
+.subtitle {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	position: static;
+	text-align: center;
+	font-size: 100%;
+	font-family: Libre Baskerville, serif; 
+	letter-spacing: 2px; 
+}
+
+hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style: solid;
+    border-width: 1px;
+    opacity: .1; 
+}
+
+li {
+	display: inline;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	padding: 55px; 
+	position: static;
+	text-align: center;
+	font-size: 70%;
+	font-family: Libre Baskerville, serif; 
+	letter-spacing: 2px; 
+}
+
+nav {
+	padding: 10px; 
+	text-align: center;
+	padding-bottom: 30px; 
+}
+
+
+
+nav a {
+     color: #939393;
+     text-decoration: none;
+}
+
+nav:hover {
+    color: #000000;
+    text-decoration: none; 
+}
+
+
+.banner{
+	padding-top: 20px;
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+	padding-bottom: 20px;
+	position: static;
+	text-align: left;
+	font-size: 150%;
+	font-family: Libre Baskerville, serif; 
+	letter-spacing: 1px; 
+}
+
+.banner2 {
+	padding-top: 20px;
+	margin-top: 20px; 
+	margin-bottom: 0px; 
+	padding-bottom: 10px;
+	position: static;
+	text-align: left;
+	font-size: 150%;
+	font-family: Libre Baskerville, serif; 
+	letter-spacing: 1px; 
+	color: #343434; 
+
+}
+
+.phrase{
+	padding-top: 10px;
+	padding-bottom: 40px;
+	position: static;
+	text-align: left;
+	font-size: 80%;
+	font-family: Libre Baskerville, serif; 
+	letter-spacing: 1px; 
+	line-height: 200%; 
+}
+
+
+
+#col_container {
+	margin-left: auto;
+	margin-right: auto;  
+    width: 1000px;
+
+}
+
+.col1 {
+	float: left;
+	width: 500px;
+	padding: 0px;  
+	margin-bottom: 0px; 
+	color: #090909;
+	max-width: 500px; 
+}
+
+figure {
+	float:left;
+	text-align: center;
+	display: block;
+	width:300px;
+	margin-bottom: 30px; 
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px; 
+}
+
+figure:hover figcaption{
+  opacity: 1;
+  left: 0;
+}
+
+figcaption {
+	text-align: center;
+	font-size: 80%;
+	font-family: Libre Baskerville, serif; 
+	letter-spacing: 1px; 
+	color: #808080; 
 	
+	opacity: 0;
+  	bottom: 0; 
+  	left: -30%;
+  	-webkit-transition: all 0.3s ease;
+ 	-moz-transition:    all 0.3s ease;
+ 	-o-transition:      all 0.3s ease;
 }
-.text-bold {
-	font-weight: bold;
+
+
+.col2 {
+	float: left;
+	width: 500px;
+	padding: 0px; 
+	position: relative;
+
 }
+
+img.large {
+	float: right;
+	width: 400px
+
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	right: 0;
+	bottom: 0;
+		left: 0;
+}
+
+
+
