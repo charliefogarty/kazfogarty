@@ -169,7 +169,9 @@ nav li:hover a, nav li.active a  {
 	letter-spacing: 1px; 
 	line-height: 200%; 
 	width: auto;
+
 }
+
 
 
 #col_container {
@@ -323,13 +325,7 @@ img.small {
 
 img.small:hover {
 	opacity: 1; 
-	-webkit-transition: all 0.5s ease;
- 	-moz-transition:    all 0.5s ease;
- 	-o-transition:      all 0.5s ease;
- 	
-
-
-
+	-webkit-transition: all 0.8s ease;
 }
 
 .questions {
