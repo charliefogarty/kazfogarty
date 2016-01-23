@@ -113,6 +113,7 @@ nav li {
 	font-size: 70%;
 	font-family: Libre Baskerville, serif; 
 	letter-spacing: 2px; 
+	-webkit-transition: all 0.5s ease;
 }
 
 nav {
@@ -130,6 +131,7 @@ nav li a {
 nav li:hover a, nav li.active a  {
     color: #000000;
     text-decoration: none; 
+    -webkit-transition: all 0.5s ease;
 }
 
 
