@@ -296,13 +296,17 @@ img.large {
 	float: left;
 	width: 400px;
 	-webkit-transition: all 0.9s ease;
-	
 }
+
 
 img.large:hover {
 	width: 420px;
 	-webkit-transition: all 0.5s ease;
+}
 
+img.large_faq {
+	float: left;
+	width: 400px; 
 }
 
 img.small {
