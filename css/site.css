@@ -26,9 +26,13 @@ html, body {
 	color: #A1A1A1; 
 	margin-top: 40px;
 	margin-bottom: 20px; 
-
-
 }
+
+#email {
+	text-decoration: none;
+	color: #A1A1A1; 
+}
+
 
 .title {
 	padding-top: 40px;
@@ -175,19 +179,50 @@ nav li:hover a, nav li.active a  {
 
 }
 
+.col2_company {
+	float: left;
+	width: 500px;
+	padding: 0px; 
+	margin-bottom: 0px;
+	margin-top: 90px;  
+	color: #090909;
+	max-width: 500px; 
+	height: auto; 
+}
 
-figure {
-	float:left;
+figure .partners {
+	float: auto;
+	text-align: center;
+	display: block;
+	width: auto;  
+}
+
+
+
+figure.gallery {
+	float: left;
 	text-align: center;
 	display: block;
 	width: auto; 
 	margin-bottom: 30px; 
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-top: 50px; 
+	margin-top: 50px; 	
 }
 
-figure:hover .figfade{
+figure.faq {
+	float: left;
+	text-align: center;
+	display: block;
+	width: auto; 
+	margin-bottom: 30px; 
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px; 	
+}
+
+
+.faq:hover .figfade{
   opacity: 1;
   left: 0;
 }
@@ -207,7 +242,7 @@ figure:hover .figfade{
  	-o-transition:      all 0.3s ease;
 }
 
-figcaption {
+figcaption.item {
 	text-align: center;
 	font-size: 80%;
 	font-family: Libre Baskerville, serif; 
@@ -217,11 +252,36 @@ figcaption {
 }
 
 
+figure.partners {
+	float: auto;
+	text-align: center;
+	width: auto; 
+	margin-bottom: 0px; 
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 0px; 
+}
+
 
 img.large {
 	float: right;
 	width: 400px
+}
 
+img.small {
+	float: auto;
+	width: 175px;
+	margin: auto; 
+	margin-top: 40px; 
+	margin-bottom: 30px; 
+	opacity: .7; 
+	-webkit-transition: all 0.3s ease;
+ 	-moz-transition:    all 0.3s ease;
+ 	-o-transition:      all 0.3s ease;
+}
+
+img.small:hover {
+	opacity: 1; 
 }
 
 .questions {
