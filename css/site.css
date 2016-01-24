@@ -48,7 +48,9 @@ a:hover {
 	color: #000000; 
 }
 
-
+#navlist {
+	padding-left: 0px;
+}
 
 .subtitle {
 	padding-top: 10px;
@@ -134,6 +136,10 @@ nav li:hover a, nav li.active a  {
     -webkit-transition: all 0.5s ease;
 }
 
+li.page-select.active {
+	background: #DEDEDE;
+}
+
 
 .banner{
 	padding-top: 20px;
@@ -174,50 +180,45 @@ nav li:hover a, nav li.active a  {
 
 }
 
-
-
 #col_container {
 	margin-left: auto;
 	margin-right: auto;  
-    width: 1000px;
+    max-width: 1020px;
+    width: 100%;
     min-height: auto; 
     overflow: auto;  
+    padding: 0;
+    padding: 0 30px;
+}
+
+.gallery-set {
+    display: block;
+    overflow: hidden;
+    max-width: 960px;
+    margin: auto;
+    text-align: center;
+}
+
+.gallery-set.hide {
+	display: none;
 }
 
 .col_header_left {
 	max-width: 1000px; 
 }
 
-.col1 {
+.col {
 	float: left;
 	width: auto; 
 	padding: 0px;  
 	margin-bottom: 0px; 
 	color: #090909;
-	max-width: 500px; 
+	max-width: 480px; 
 	height: auto; 
 }
 
-.col2 {
-	float: left;
-	width: auto;
-	padding: 0px; 
-	margin-bottom: 0px; 
-	color: #090909;
-	max-width: 500px; 
-	height: auto; 
-
-}
-
-.col2_company {
-	float: left;
-	width: 500px;
-	padding: 0px; 
-	margin-bottom: 0px;
+.col.company {
 	margin-top: 90px;  
-	color: #090909;
-	max-width: 500px; 
-	height: auto; 
 }
 
 figure .partners {
@@ -231,15 +232,9 @@ figure .partners {
 
 
 figure.gallery {
-	float: left;
 	text-align: center;
 	display: block;
-	width: auto;
-	max-width: 400px;  
-	margin-bottom: 30px; 
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-top: 50px; 	
+	width: 480px;
 }
 
 figure.faq {
@@ -297,7 +292,6 @@ figure.partners {
 
 
 img.large {
-	float: left;
 	width: 400px;
 	-webkit-transition: all 0.9s ease;
 }
@@ -309,20 +303,16 @@ img.large:hover {
 }
 
 img.large_faq {
-	float: left;
 	width: 400px; 
 }
 
 img.small {
-	float: auto;
 	margin-top: 40px; 
 	margin-bottom: 20px; 
 	padding-bottom: 10px; 
 	opacity: .5; 
 	width: 175px;
-	-webkit-transition: all 0.9s ease;
-
- 	
+	-webkit-transition: all 0.9s ease; 	
 }
 
 img.small:hover {
@@ -368,5 +358,42 @@ img.small:hover {
 	color: #555555; 
 }
 
+@media (max-width: 1020px) {
+	#navlist li {
+	    display: block;
+	    padding: 0;
+	    margin-bottom: 10px;
+	}
+	.col {
+		float: none;
+		max-width: 100%;
+	}
+	.col.company {
+		margin-top: 0;
+	}
+	.col img.large {
+		float: none;
+		width: 80%;
+		margin: auto;
+		display: block;
+	}
+	.col figure {
+		float: none;
+		width: 100%;
+		display: block;
+		margin: 0;
+	}
+	.col figure img.large_faq {
+		float: none;
+		width: 80%;
+		margin: auto;
+		display: block;
+	}
+	.questions {
+		padding-right: 0px; 
+	}
 
-
+	img.small {
+		opacity: 1;
+	}
+}
