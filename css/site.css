@@ -168,8 +168,8 @@ li.page-select.active {
 }
 
 .phrase{
-	padding-top: 10px;
-	padding-bottom: 40px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	position: relative;
 	text-align: left;
 	font-size: 80%;
@@ -179,6 +179,40 @@ li.page-select.active {
 	width: auto;
 
 }
+
+.fogarty {
+	margin-top: 70px; 
+	display: block; 
+	width: 100%; 
+	height: 275px;
+	margin-bottom: 0px;  
+
+}
+
+.kazanjian {
+	display: block; 
+	width: 100%; 
+	height: 275px;
+}
+
+
+
+#phrase2 {
+	max-width: 500px; 
+	float: left;
+	margin-bottom: 150px; 
+	margin-top: 10px; 
+}
+
+
+#phrase3 {
+	max-width: 500px; 
+	margin-left: 50px; 
+	margin-bottom: 50px; 
+	margin-top: 20px; 
+
+}
+
 
 #col_container {
 	margin-left: auto;
@@ -209,7 +243,7 @@ li.page-select.active {
 
 .col {
 	float: left;
-	width: auto; 
+	width: 100%; 
 	padding: 0px;  
 	margin-bottom: 0px; 
 	color: #090909;
@@ -221,12 +255,25 @@ li.page-select.active {
 	margin-top: 90px;  
 }
 
-figure .partners {
-	float: auto;
+figure.partners2 {
+	float: right; 
+	width: auto;
 	text-align: center;
-	display: block;
+	margin-bottom: 50px; 
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 0px; 
+}
+
+
+figure.partners {
+	float: left;
+	text-align: center;
 	width: auto; 
-	opacity: .1; 
+	margin-bottom: 0px; 
+	margin-left: 50px;
+	margin-right: 130px;
+	margin-top: 0px; 
 }
 
 
@@ -280,16 +327,6 @@ figcaption.item {
 }
 
 
-figure.partners {
-	float: auto;
-	text-align: center;
-	width: auto; 
-	margin-bottom: 0px; 
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-top: 0px; 
-}
-
 
 img.large {
 	width: 400px;
@@ -307,10 +344,10 @@ img.large_faq {
 }
 
 img.small {
-	margin-top: 40px; 
+	margin-top: 0px; 
 	margin-bottom: 20px; 
-	padding-bottom: 10px; 
-	opacity: .5; 
+	padding-bottom: 0px; 
+	opacity: .8; 
 	width: 175px;
 	-webkit-transition: all 0.9s ease; 	
 }
@@ -358,11 +395,14 @@ img.small:hover {
 	color: #555555; 
 }
 
+
 @media (max-width: 1020px) {
 	#navlist li {
 	    display: block;
 	    padding: 0;
-	    margin-bottom: 10px;
+	    margin-bottom: 15px;
+	    margin-top: 5px; 
+
 	}
 	.col {
 		float: none;
@@ -396,4 +436,17 @@ img.small:hover {
 	img.small {
 		opacity: 1;
 	}
+
+	.title {
+		font-size: 200%;	
+	}
+
+	.subtitle {
+		font-size: 70%; 
+	}
+
+
 }
+
+
+
