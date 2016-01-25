@@ -200,17 +200,18 @@ li.page-select.active {
 #phrase2 {
 	max-width: 500px; 
 	float: left;
-	margin-bottom: 150px; 
+	margin-bottom: 0px; 
 	margin-top: 10px; 
+	line-height: 25px; 
 }
 
 
 #phrase3 {
-	max-width: 500px; 
+	max-width: 550px; 
 	margin-left: 50px; 
 	margin-bottom: 50px; 
-	margin-top: 20px; 
-
+	margin-top: 50px; 
+	line-height: 25px;
 }
 
 
@@ -261,7 +262,7 @@ figure.partners2 {
 	text-align: center;
 	margin-bottom: 50px; 
 	margin-left: 100px;
-	margin-right: 100px;
+	margin-right: 120px;
 	margin-top: 0px; 
 }
 
@@ -329,19 +330,23 @@ figcaption.item {
 
 
 img.large {
-	width: 400px;
+	width: 420px;
+	padding: 20px; 
 	-webkit-transition: all 0.9s ease;
 }
 
 
 img.large:hover {
 	width: 420px;
+	padding: 0px; 
 	-webkit-transition: all 0.5s ease;
 }
 
 img.large_faq {
 	width: 400px; 
 }
+
+
 
 img.small {
 	margin-top: 0px; 
@@ -387,6 +392,7 @@ img.small:hover {
 	position: static;
 	margin-top: 0px;
 	margin-bottom: 30px;  
+	margin-right: 35px; 
 	text-align: left;
 	font-size: 80%;
 	font-family: Libre Baskerville, serif; 
@@ -402,6 +408,7 @@ img.small:hover {
 	    padding: 0;
 	    margin-bottom: 15px;
 	    margin-top: 5px; 
+	    font-size: 150%; 
 
 	}
 	.col {
