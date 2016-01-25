@@ -75,14 +75,14 @@ hr {
 .button {
 	position: static;
 	text-align: center;
-	font-size: 60%;
+	font-size: 110%;
 	font-family: Libre Baskerville, serif; 
 	letter-spacing: 2px;
 	background: #F7F7F7; 
 	display:inline-block;
 	cursor:pointer;
 	padding:8px 13px;
-	float: right;
+	float: left;
 	margin: 2px; 
 }
 
@@ -409,6 +409,7 @@ img.small:hover {
 	    margin-bottom: 15px;
 	    margin-top: 5px; 
 	    font-size: 150%; 
+	    overflow: auto;
 
 	}
 	.col {
@@ -452,6 +453,14 @@ img.small:hover {
 		font-size: 70%; 
 	}
 
+	.col_header_right {
+		width: 100%; 
+		margin: 20px
+	}
+
+	#archive-sub{
+		text-align: center;
+	}
 
 }
 
