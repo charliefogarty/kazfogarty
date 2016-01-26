@@ -104,6 +104,14 @@ hr {
 	float: right;
 }
 
+.page_bottom {
+	position: relative;
+	overflow: auto;
+	padding-top: 50px; 
+	float: right;
+	font-size: 80%; 
+}
+
 
 nav li {
 	display: inline;
@@ -208,9 +216,10 @@ li.page-select.active {
 
 #phrase3 {
 	max-width: 550px; 
-	margin-left: 50px; 
-	margin-bottom: 50px; 
-	margin-top: 50px; 
+	padding-left: 50px; 
+	padding-bottom: 50px; 
+	padding-top: 40px; 
+	margin-top: 0px; 
 	line-height: 25px;
 }
 
@@ -261,9 +270,10 @@ figure.partners2 {
 	width: auto;
 	text-align: center;
 	margin-bottom: 50px; 
-	margin-left: 100px;
 	margin-right: 120px;
-	margin-top: 0px; 
+	padding-right: 20px; 
+	padding-top: 20px;  
+	padding-left: 20px; 
 }
 
 
@@ -328,16 +338,16 @@ figcaption.item {
 }
 
 
-
 img.large {
-	width: 420px;
-	padding: 20px; 
+	width: 440px;
+	padding: 30px; 
+	overflow: auto;
 	-webkit-transition: all 0.9s ease;
 }
 
 
 img.large:hover {
-	width: 420px;
+	width: 440px;
 	padding: 0px; 
 	-webkit-transition: all 0.5s ease;
 }
@@ -353,7 +363,7 @@ img.small {
 	margin-bottom: 20px; 
 	padding-bottom: 0px; 
 	opacity: .8; 
-	width: 175px;
+	width: 200px;
 	-webkit-transition: all 0.9s ease; 	
 }
 
@@ -458,8 +468,24 @@ img.small:hover {
 		margin: 20px
 	}
 
+	.page_bottom {
+		width: 100%;
+		margin: 20px; 
+	}
+
 	#archive-sub{
 		text-align: center;
+	}
+
+	figure.partners2 {
+	float: right; 
+	width: auto;
+	text-align: center;
+	margin-bottom: 50px; 
+	margin-right: 50px;
+	padding-right: 20px; 
+	padding-top: 50px;  
+	padding-left: 20px; 
 	}
 
 }
