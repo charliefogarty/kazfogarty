@@ -2,7 +2,7 @@ html, body {
   position: relative;
   margin: 0;
   padding-bottom: 6rem;
-  height: 100%;
+  height: 100%; 
  }
 
  
@@ -11,18 +11,18 @@ html, body {
 	display: block;
 	text-align: center; 
 	position: static;
-	font-size: 70%;
+	font-size: 80%;
 	font-weight: bolder; 
 	font-family: Libre Baskerville, serif; 
 	letter-spacing: 1px; 
-	color: #A1A1A1; 
+	color: #555555; 
 	margin-top: 40px;
 	margin-bottom: 20px; 
 }
 
 #email {
 	text-decoration: none;
-	color: #A1A1A1; 
+	color: #555555; 
 }
 
 
@@ -120,10 +120,12 @@ nav li {
 	padding: 55px; 
 	position: static;
 	text-align: center;
-	font-size: 70%;
+	font-size: 75%;
 	font-family: Libre Baskerville, serif; 
 	letter-spacing: 2px; 
 	-webkit-transition: all 0.5s ease;
+	-moz-transition:    all 0.5s ease;
+ 	-o-transition:      all 0.5s ease;
 }
 
 nav {
@@ -142,6 +144,8 @@ nav li:hover a, nav li.active a  {
     color: #000000;
     text-decoration: none; 
     -webkit-transition: all 0.5s ease;
+    -moz-transition:    all 0.5s ease;
+ 	-o-transition:      all 0.5s ease;
 }
 
 li.page-select.active {
@@ -162,10 +166,10 @@ li.page-select.active {
 }
 
 .banner2 {
-	padding-top: 20px;
+	padding-top: 0px;
 	margin-top: 20px; 
 	margin-bottom: 0px; 
-	padding-bottom: 10px;
+	padding-bottom: 35px;
 	position: static;
 	text-align: left;
 	font-size: 150%;
@@ -180,7 +184,7 @@ li.page-select.active {
 	padding-bottom: 0px;
 	position: relative;
 	text-align: left;
-	font-size: 80%;
+	font-size: 90%;
 	font-family: Libre Baskerville, serif; 
 	letter-spacing: 1px; 
 	line-height: 200%; 
@@ -343,13 +347,17 @@ img.large {
 	padding: 30px; 
 	overflow: auto;
 	-webkit-transition: all 0.9s ease;
+	-moz-transition:    all 0.9s ease;
+ 	-o-transition:      all 0.9s ease;
 }
 
 
 img.large:hover {
 	width: 440px;
-	padding: 0px; 
+	padding: 10px; 
 	-webkit-transition: all 0.5s ease;
+	-moz-transition:    all 0.5s ease;
+ 	-o-transition:      all 0.5s ease;
 }
 
 img.large_faq {
@@ -365,11 +373,15 @@ img.small {
 	opacity: .8; 
 	width: 200px;
 	-webkit-transition: all 0.9s ease; 	
-}
+	-moz-transition:    all 0.9s ease;
+ 	-o-transition:      all 0.9s ease;
+ }
 
 img.small:hover {
 	opacity: 1; 
 	-webkit-transition: all 0.8s ease;
+	-moz-transition:    all 0.8s ease;
+ 	-o-transition:      all 0.8s ease;
 }
 
 .questions {
@@ -391,7 +403,7 @@ img.small:hover {
 	margin-top: 0px;
 	margin-bottom: 50px;  
 	text-align: left;
-	font-size: 80%;
+	font-size: 90%;
 	font-family: Libre Baskerville, serif; 
 	letter-spacing: 1px; 
 	line-height: 220%; 
@@ -404,7 +416,7 @@ img.small:hover {
 	margin-bottom: 30px;  
 	margin-right: 35px; 
 	text-align: left;
-	font-size: 80%;
+	font-size: 85%;
 	font-family: Libre Baskerville, serif; 
 	letter-spacing: 1px; 
 	line-height: 220%; 
@@ -453,6 +465,11 @@ img.small:hover {
 
 	img.small {
 		opacity: 1;
+	}
+
+	img.large {
+		width: 440px; 
+		padding: 10px; 
 	}
 
 	.title {
